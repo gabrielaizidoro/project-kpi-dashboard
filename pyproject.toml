@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-kpi-dashboard"
+version = "0.1.0"
+description = "Template Streamlit para dashboard de status/KPIs/pilares de uma iniciativa (projeto de portfólio, conteúdo fictício)."
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.32",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

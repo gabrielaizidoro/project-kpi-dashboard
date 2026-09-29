@@ -1,0 +1,51 @@
+# Arquivo de configuração de EXEMPLO (100% fictício).
+# Edite este arquivo (ou crie uma cópia) para reutilizar o template com o
+# seu próprio projeto/iniciativa. Nenhum dado real está presente aqui.
+
+name: "Iniciativa Alfa"
+tagline: "Modelo de dashboard para acompanhamento de status, KPIs e pilares de uma iniciativa interna fictícia."
+
+description: >
+  A "Iniciativa Alfa" é um projeto de demonstração criado para ilustrar como
+  estruturar um painel de acompanhamento executivo. Todos os nomes, números
+  e times mencionados são fictícios e servem apenas como exemplo de uso do
+  template.
+
+kpis:
+  - name: "Satisfação dos usuários"
+    value: "87%"
+    delta: "+5 p.p."
+    trend: "up"
+  - name: "Tempo médio de execução"
+    value: "3.2 dias"
+    delta: "-0.8 dia"
+    trend: "up"
+  - name: "Processos automatizados"
+    value: "42"
+    delta: "+12"
+    trend: "up"
+  - name: "Custo operacional mensal"
+    value: "R$ 18.4k"
+    delta: "-3%"
+    trend: "up"
+  - name: "Incidentes reportados"
+    value: "6"
+    delta: "+2"
+    trend: "down"
+
+pillars:
+  - title: "Eficiência Operacional"
+    description: "Reduzir retrabalho e tempo de ciclo por meio de automações e padronização de processos."
+  - title: "Experiência do Usuário"
+    description: "Elevar a satisfação dos usuários internos através de melhorias contínuas de usabilidade."
+  - title: "Governança de Dados"
+    description: "Garantir qualidade, rastreabilidade e segurança das informações utilizadas pela iniciativa."
+  - title: "Inovação"
+    description: "Explorar novas tecnologias e abordagens para acelerar a entrega de valor."
+
+areas_involved:
+  - "Time de Produto"
+  - "Engenharia de Dados"
+  - "Operações"
+  - "Qualidade"
+  - "Suporte ao Cliente (fictício)"
